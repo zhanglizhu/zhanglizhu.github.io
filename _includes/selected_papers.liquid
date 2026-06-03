@@ -1,0 +1,13 @@
+{% comment %}
+Local override of al_folio_core's _includes/selected_papers.liquid.
+Adds a legend explaining the * and † author markers.
+{% endcomment %}
+<div class="publications">
+  <h2>
+    <a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a>
+  </h2>
+  <p style="font-size: 0.9em; color: var(--global-text-color-light, #666); margin-bottom: 1em;">
+    <em>* indicates co-first authorship, † means joint last author.</em>
+  </p>
+  {% bibliography -f papers -q @*[selected=true] %}
+</div>

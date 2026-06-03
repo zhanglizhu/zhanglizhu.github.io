@@ -35,5 +35,3 @@ I am an AI Research Scientist Director at Meta, focusing on LLM and RecSys. Prio
 I obtained a bachelor's degree in Physics and master degree in EE both at Tsinghua University, mentored by [Dr Yu Zheng](https://scholar.google.com/citations?user=juUcdgYAAAAJ&hl=en)
 
 My research area includes Reinforcement Learning, Causal Inference, AI Agents and other model paradigm innovations in RecSys/LLM.
-
-<p style="font-size: 0.9em; color: var(--global-text-color-light, #666); margin-top: 1.5em;"><em>* indicates co-first authorship, † means joint last author.</em></p>
