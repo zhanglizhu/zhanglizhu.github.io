@@ -30,10 +30,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an AI Research Scientist Director at Meta, focusing on LLM and RecSys. Prior Meta, I worked at Twitter/X, Uber, Google and VMware in RecSys and distributed system.
-
-I obtained a bachelor's degree in Physics and master degree in EE both at Tsinghua University, mentored by [Dr Yu Zheng](https://scholar.google.com/citations?user=juUcdgYAAAAJ&hl=en)
-
-My research area includes Reinforcement Learning, Causal Inference, AI Agents and other model paradigm innovations in RecSys/LLM.
+I am an AI Research Scientist Director at Meta. Prior Meta, I worked at Twitter/X, Uber, Google and VMware in RecSys and distributed system. My research area includes Reinforcement Learning, Causal Inference, Auto-research and model paradigm innovations, etc in RecSys/LLM.
 
 I enjoy working with a group of smartest milds on the earth in my team and exploring the boundary of AI.
+
+I obtained a bachelor's degree in Physics and master degree in EE both at Tsinghua University, mentored by [Dr Yu Zheng](https://scholar.google.com/citations?user=juUcdgYAAAAJ&hl=en)
