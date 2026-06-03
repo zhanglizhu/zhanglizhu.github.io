@@ -1,115 +1,300 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{aclarr = {ACL Rolling Review}}
+@string{icml   = {International Conference on Machine Learning (ICML)}}
+@string{neurips= {Advances in Neural Information Processing Systems (NeurIPS)}}
+@string{acl    = {Annual Meeting of the Association for Computational Linguistics (ACL)}}
+@string{colm   = {Conference on Language Modeling (COLM)}}
+@string{www    = {The Web Conference (WWW)}}
+@string{kdd    = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining}}
+@string{iccv   = {International Conference on Computer Vision (ICCV)}}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+% ============================================================
+% 2026 — Submissions & Publications
+% ============================================================
+
+@inproceedings{zhou2026omniopd,
+  abbr       = {ACL ARR},
+  title      = {OMNIOPD: Logit-Free On-Policy Distillation via Speculative Verification},
+  author     = {Zhou, Yuhang and Zhang, Lizhu and Wu, Yifan and Wang, Mingyi and Peng, Bo and Liu, Jiayi and Fan, Xiangjun and Zhao, Zhuokai},
+  booktitle  = aclarr,
+  year       = {2026},
+  note       = {May 2026 Submission},
+  bibtex_show= {true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@inproceedings{zhou2026sageopd,
+  abbr       = {ACL ARR},
+  title      = {SAGE-OPD: Selective Agent-Guided Intervention for Multi-Turn On-Policy Distillation},
+  author     = {Zhou, Yuhang and Zhang, Lizhu and Wu, Yifan and Wang, Mingyi and Peng, Bo and Liu, Jiayi and Fan, Xiangjun and Zhao, Zhuokai},
+  booktitle  = aclarr,
+  year       = {2026},
+  note       = {May 2026 Submission},
+  bibtex_show= {true}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@inproceedings{wu2026remember,
+  abbr       = {ACL ARR},
+  title      = {Remember When It Matters: A Proactive Memory Agent for Long-Horizon Tasks},
+  author     = {Wu, Yifan and Zhang, Lizhu and Zhou, Yuhang and Wang, Mingyi and Peng, Bo and Li, Serena and Fan, Xiangjun and Zhao, Zhuokai},
+  booktitle  = aclarr,
+  year       = {2026},
+  note       = {May 2026 Submission},
+  bibtex_show= {true}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@inproceedings{xiong2026fusionroute,
+  abbr       = {ICML},
+  title      = {Token-Level LLM Collaboration via FusionRoute},
+  author     = {Xiong, Nuoya and Zhou, Yuhang and Zeng, Hanqing and Chen, Zhaorun and Huang, Furong and Bi, Shuchao and Zhang, Lizhu and Zhao, Zhuokai},
+  booktitle  = icml,
+  year       = {2026},
+  note       = {Regular},
+  bibtex_show= {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
+@inproceedings{codaforno2026system12,
+  abbr       = {ICML},
+  title      = {Exploring System-1 and System-2 Communication for Latent Reasoning in LLMs},
+  author     = {Coda-Forno, Julian and Zhao, Zhuokai and Zhang, Qiang and Tamboli, Dipesh and Li, Weiwei and Fan, Xiangjun and Zhang, Lizhu and Schulz, Eric and Tseng, Hsiao-Ping},
+  booktitle  = icml,
+  year       = {2026},
+  note       = {Submitted},
+  html       = {https://openreview.net/forum?id=UMZqvCvnnX},
+  bibtex_show= {true}
 }
 
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
+@inproceedings{yang2026streammem,
+  abbr       = {ICML},
+  title      = {StreamMem: Query-Agnostic KV Cache Memory for Streaming Video Understanding},
+  author     = {Yang, Yanlai and Zhao, Zhuokai and Shukla, Satya Narayan and Singh, Aashu and Mishra, Shlok Kumar and Zhang, Lizhu and Ren, Mengye},
+  booktitle  = icml,
+  year       = {2026},
+  note       = {VidLLMs Poster / Conference Submission},
+  html       = {https://openreview.net/forum?id=siAEqckmUs},
+  bibtex_show= {true}
 }
 
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
+@inproceedings{han2026ebpo,
+  abbr       = {ICML},
+  title      = {EBPO: Empirical Bayes Shrinkage for Stabilizing Group-Relative Policy Optimization},
+  author     = {Han, Kevin and Zhou, Yuhang and Gao, Mingze and Zhou, Gedi and Li, Serena and Kumar, Abhishek and Fan, Xiangjun and Li, Weiwei and Zhang, Lizhu},
+  booktitle  = icml,
+  year       = {2026},
+  note       = {Submitted},
+  bibtex_show= {true}
 }
 
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+@inproceedings{shen2026agentic,
+  abbr       = {NeurIPS},
+  title      = {Agentic Recommender System with Hierarchical Belief-State Memory},
+  author     = {Shen, Xiang and Zhou, Yuhang and Wu, Yifan and Zhao, Zhuokai and Lin, Siyu and Huang, Lei and Zhong, Qianqian and Zhang, Lizhu and Zhang, Benyu and Fan, Xiangjun and Yan, Hong},
+  booktitle  = neurips,
+  year       = {2026},
+  note       = {Submission},
+  bibtex_show= {true}
 }
 
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@inproceedings{zhou2026mixtureofminds,
+  abbr       = {ACL},
+  title      = {Mixture-of-Minds: Multi-Agent Reinforcement Learning for Table Understanding},
+  author     = {Zhou, Yuhang and Zhang, Mingrui and Li, Ke and Wang, Mingyi and Liu, Qiao and Wang, Qifei and Liu, Jiayi and Liu, Fei and Li, Serena and Li, Weiwei and Gao, Mingze and Kumar, Abhishek and Fan, Xiangjun and Zhao, Zhuokai and Zhang, Lizhu},
+  booktitle  = acl,
+  year       = {2026},
+  note       = {Main Conference},
+  bibtex_show= {true}
+}
+
+@inproceedings{zhou2026mofa,
+  abbr       = {ACL},
+  title      = {MOFA: LLM-Driven Reasoning for Constraint-Aware Feature Selection in Industrial ML Systems},
+  author     = {Zhou, Yuhang and Zhao, Zhuokai and Li, Ke and Evmorfos, Spilios and Demirci, Gökalp and Wang, Mingyi and Liu, Qiao and Wang, Qifei and Li, Serena and Li, Weiwei and Gao, Mingze and Zhou, Gedi and Kumar, Abhishek and Fan, Xiangjun and Zhang, Lizhu and Liu, Jiayi},
+  booktitle  = acl,
+  year       = {2026},
+  note       = {Industry Track Submission},
+  bibtex_show= {true}
+}
+
+@inproceedings{rai2026taro,
+  abbr       = {ACL},
+  title      = {TARo: Token-level Adaptive Routing for LLM Test-time Alignment},
+  author     = {Rai, Arushi and Zhang, Qiang and Zeng, Hanqing and Zhang, Yunkai and Tamboli, Dipesh and Fan, Xiangjun and Zhao, Zhuokai and Zhang, Lizhu},
+  booktitle  = acl,
+  year       = {2026},
+  note       = {Findings},
+  bibtex_show= {true}
+}
+
+@inproceedings{zhou2026sandbox,
+  abbr       = {COLM},
+  title      = {Synthetic Sandbox for Training ML Engineering Agents},
+  author     = {Zhou, Yuhang and Zhang, Lizhu and Wu, Yifan and Liu, Jiayi and Fan, Xiangjun and Zhao, Zhuokai and Yan, Hong},
+  booktitle  = colm,
+  year       = {2026},
+  note       = {Submission},
+  bibtex_show= {true}
+}
+
+@inproceedings{yang2026calm,
+  abbr       = {COLM},
+  title      = {Let it Calm: Exploratory Annealed Decoding for Verifiable Reinforcement Learning},
+  author     = {Yang, Chenghao and Gui, Lin and Yang, Chenxiao and Veitch, Victor and Zhang, Lizhu and Zhao, Zhuokai},
+  booktitle  = colm,
+  year       = {2026},
+  note       = {Submission},
+  bibtex_show= {true}
+}
+
+@inproceedings{zhang2026genrec,
+  abbr       = {WWW},
+  title      = {Guiding Generative Recommender Systems with Structured Human Priors via Multi-head Decoding},
+  author     = {Zhang, Yunkai and Zhang, Qiang and Yang, Diji and Lin, Ryan Feng and Qiu, Ruizhong and Zhang, Benyu and Yu, Hanchao and Liu, Jiayi and Xia, Yinglong and Zhao, Zhuokai and Zhang, Lizhu and Fan, Xiangjun and Yu, Zhuoran and Kumar, Abhishek and Zheng, Zeyu},
+  booktitle  = www,
+  year       = {2026},
+  bibtex_show= {true}
+}
+
+@inproceedings{liu2026recoworld,
+  abbr       = {WWW},
+  title      = {RecoWorld: Building Simulated Environments for Agentic Recommender Systems},
+  author     = {Liu, Fei and Lin, Xinyu and Yu, Hanchao and Wu, Mingyuan and Wang, Jianyu and Zhang, Qiang and Zhao, Zhuokai and Xia, Yinglong and Zhang, Yao and Li, Weiwei and Gao, Mingze and Wang, Qifan and Zhang, Lizhu and Zhang, Benyu and Fan, Xiangjun},
+  booktitle  = {HCRS Workshop at The Web Conference},
+  year       = {2026},
+  note       = {Oral},
+  bibtex_show= {true}
+}
+
+@inproceedings{liu2026next,
+  abbr       = {KDD},
+  title      = {NEXT: Causality-Driven Video Recommendation via Vision-Language Model Reasoning},
+  author     = {Liu, Yuming and Yang, Hongye and Zhao, Harrison and Zhu, Ellie and Cao, Bokai and Huang, Lei and Zhang, Lizhu and Fan, Xiangjun},
+  booktitle  = kdd,
+  year       = {2026},
+  note       = {ADS Track Cycle 2 Submission},
+  bibtex_show= {true}
+}
+
+@inproceedings{han2026connectionmind,
+  abbr       = {KDD},
+  title      = {ConnectionMind: Leveraging Social Networks and Large Language Models for Personalized Recommendation at Meta},
+  author     = {Han, Haoyu and Liu, Yuming and Huang, Lei and Zhang, Lizhu and Tang, Jiliang and Fan, Xiangjun},
+  booktitle  = kdd,
+  year       = {2026},
+  note       = {ADS Track Cycle 2 Submission},
+  bibtex_show= {true}
+}
+
+% ============================================================
+% 2025 — Publications & Submissions
+% ============================================================
+
+@inproceedings{zheng2025thought,
+  abbr       = {NeurIPS},
+  title      = {Thought Communication in Multiagent Collaboration},
+  author     = {Zheng, Yujia and Zhao, Zhuokai and Li, Zijian and Xie, Yaqi and Gao, Mingze and Zhang, Lizhu and Zhang, Kun},
+  booktitle  = neurips,
+  year       = {2025},
+  note       = {Spotlight / ResponsibleFM},
+  html       = {https://openreview.net/forum?id=tq9lyV9Cml},
+  selected   = {true},
+  bibtex_show= {true}
+}
+
+@inproceedings{zeng2025smore,
+  abbr       = {NeurIPS},
+  title      = {S'MoRE: Structural Mixture of Residual Experts for Parameter-Efficient LLM Fine-tuning},
+  author     = {Zeng, Hanqing and Xia, Yinglong and Zhao, Zhuokai and Jiang, Chuan and Zhang, Qiang and Liu, Jiayi and Zhang, Qunshu and Zhang, Lizhu and Fan, Xiangjun and Zhang, Benyu},
+  booktitle  = neurips,
+  year       = {2025},
+  note       = {Poster},
+  html       = {https://openreview.net/forum?id=LbNL8xGai2},
+  selected   = {true},
+  bibtex_show= {true}
+}
+
+@inproceedings{wang2025causalrewards,
+  abbr       = {NeurIPS},
+  title      = {Beyond Reward Hacking: Causal Rewards for Large Language Model Alignment},
+  author     = {Wang, Chaoqi and Zhao, Zhuokai and Jiang, Yibo and Chen, Zhaorun and Zhu, Chen and Chen, Yuxin and Liu, Jiayi and Zhang, Lizhu and Fan, Xiangjun and Ma, Hao and Wang, Sinong},
+  booktitle  = neurips,
+  year       = {2025},
+  note       = {Submitted},
+  html       = {https://openreview.net/forum?id=14vBE8iAEx},
+  bibtex_show= {true}
+}
+
+@inproceedings{zhang2025gem,
+  abbr       = {ICML},
+  title      = {GEM: Empowering LLM for both Embedding Generation and Language Understanding},
+  author     = {Zhang, Caojin and Zhang, Qiang and Li, Ke and Nuthalapati, Sai Vidyaranya and Zhang, Benyu and Li, Serena and Zhang, Lizhu and Fan, Xiangjun},
+  booktitle  = icml,
+  year       = {2025},
+  note       = {Submission},
+  bibtex_show= {true}
+}
+
+@inproceedings{peng2025globaltokens,
+  abbr       = {ICML},
+  title      = {Accelerating LLM-Based Text Embeddings: The Power of Global Tokens for Efficient Token Reduction},
+  author     = {Peng, ShengYun and Tai, Kai Sheng and He, Baosheng and Chen, Xiaohui and Wang, Peiqi and Tian, Taipeng and Zhang, Qiang and Shukla, Satya Narayan and Zhang, Lizhu and Chau, Duen Horng and Yang, David},
+  booktitle  = icml,
+  year       = {2025},
+  note       = {Submission},
+  bibtex_show= {true}
+}
+
+@inproceedings{yu2025cafe,
+  abbr       = {ICCV},
+  title      = {CAFE: Unifying Representation and Generation with Contrastive-Autoregressive Finetuning},
+  author     = {Yu, Hao and Zhao, Zhuokai and Yan, Shen and Korycki, Lukasz and Wang, Jianyu and He, Baosheng and Liu, Jiayi and Zhang, Lizhu and Fan, Xiangjun and Yu, Hanchao},
+  booktitle  = {ICCV Workshop},
+  year       = {2025},
+  note       = {Findings Submission},
+  html       = {https://openreview.net/forum?id=O7N4dVdGTC},
+  bibtex_show= {true}
+}
+
+@inproceedings{zhang2025seqrec,
+  abbr       = {KDD},
+  title      = {Efficient Sequential Recommendation for Long Term User Interest Via Personalization},
+  author     = {Zhang, Qiang and Yu, Hanchao and Ji, Ivan and Yuan, Chen and Zhang, Yi and Liu, Chihuang and Wang, Xiaolong and Lambert, Christopher E. and Chen, Ren and Kovacs, Chen and Bei, Xinzhu and Cai, Renqin and Li, Rui and Zhang, Lizhu and Fan, Xiangjun and Zhang, Qunshu and Zhang, Benyu},
+  booktitle  = kdd,
+  year       = {2025},
+  note       = {Research Track Submission},
+  bibtex_show= {true}
+}
+
+% ============================================================
+% Legacy Publications
+% ============================================================
+
+@article{zheng2011recommending,
+  abbr       = {TWEB},
+  title      = {Recommending friends and locations based on individual location history},
+  author     = {Zheng, Yu and Zhang, Lizhu and Ma, Zhengxin and Xie, Xing and Ma, Wei-Ying},
+  journal    = {ACM Transactions on the Web},
+  year       = {2011},
+  selected   = {true},
+  bibtex_show= {true}
+}
+
+@inproceedings{zheng2009mininglocations,
+  abbr       = {WWW},
+  title      = {Mining interesting locations and travel sequences from GPS trajectories},
+  author     = {Zheng, Yu and Zhang, Lizhu and Xie, Xing and Ma, Wei-Ying},
+  booktitle  = {Proceedings of the 18th International Conference on World Wide Web (WWW)},
+  year       = {2009},
+  selected   = {true},
+  bibtex_show= {true}
+}
+
+@inproceedings{zheng2009correlation,
+  abbr       = {GIS},
+  title      = {Mining correlation between locations using human location history},
+  author     = {Zheng, Yu and Zhang, Lizhu and Xie, Xing and Ma, Wei-Ying},
+  booktitle  = {Proceedings of the 17th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (GIS)},
+  year       = {2009},
+  selected   = {true},
+  bibtex_show= {true}
 }
