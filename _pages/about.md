@@ -30,7 +30,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an AI Research Scientist Director at Meta, focusing on LLM and RecSys. Prior Meta, I haven been working at Twitter/X, Uber, Google and VMware in RecSys and distributed system.
+I am an AI Research Scientist Director at Meta, focusing on LLM and RecSys. Prior Meta, I worked at Twitter/X, Uber, Google and VMware in RecSys and distributed system.
 
 I obtained a bachelor's degree in Physics and master degree in EE both at Tsinghua University, mentored by [Dr Yu Zheng](https://scholar.google.com/citations?user=juUcdgYAAAAJ&hl=en)
 
