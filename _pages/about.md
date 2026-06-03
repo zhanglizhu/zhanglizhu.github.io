@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>AI Research Scientist Director at Meta, husband, dad of 3 kids. Go to gym, hiking and tennis for fresh mind</p>
+    <p>AI Researcher, husband, dad of 3 kids. Go to gym, hiking and tennis for fresh mind</p>
     <p style="font-size: 1.4rem;">
       <a href="https://www.linkedin.com/in/lizhuzhang/" target="_blank" rel="noopener" aria-label="LinkedIn" style="margin-right: 0.5rem;"><i class="fab fa-linkedin" style="color:#0A66C2;"></i></a>
       <a href="https://x.com/LizhuZhang" target="_blank" rel="noopener" aria-label="X" style="margin-right: 0.5rem;"><i class="fa-brands fa-x-twitter" style="color:#000000;"></i></a>
