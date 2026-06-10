@@ -341,7 +341,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Zhang, "Zhang*", "Zhang†"]
+  last_name: [Zhang, "Zhang*"]
   first_name: [Lizhu]
 
   style: apa
