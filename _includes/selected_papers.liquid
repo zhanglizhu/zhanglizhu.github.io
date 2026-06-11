@@ -6,6 +6,8 @@ so this file only adds the legend and the filtered bibliography.
 <div class="publications">
   <p style="font-size: 0.9em; color: var(--global-text-color-light, #666); margin-bottom: 1em;">
     <em>* indicates corresponding / joint last authorship.</em>
+    &nbsp;|&nbsp;
+    <a href="{{ '/publications/' | relative_url }}">full list &rarr;</a>
   </p>
   {% bibliography -f papers -q @*[selected=true] %}
 </div>

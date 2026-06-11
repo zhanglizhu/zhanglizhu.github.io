@@ -35,3 +35,9 @@ I am an AI Research Scientist Director at Meta. Before Meta, I worked on recomme
 I feel fortunate to work alongside some of the brightest minds in the field, exploring the frontiers of AI together.
 
 I received my bachelor's degree in Physics and my master's degree in Electrical Engineering from Tsinghua University, where I was advised by [Dr. Yu Zheng](https://scholar.google.com/citations?user=juUcdgYAAAAJ&hl=en).
+
+<style>
+  /* Sentence-case the section headings injected by the about layout
+     ("news" and "selected publications"). */
+  .post > article > h2 > a::first-letter { text-transform: uppercase; }
+</style>
