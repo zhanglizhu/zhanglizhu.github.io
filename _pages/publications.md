@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: publications by categories in reversed chronological order. <em>*</em> indicates corresponding / joint last authorship.
+description: publications by categories in reversed chronological order. <em>*</em> indicates corresponding / joint last authorship. <em>†</em> indicates equal contribution.
 nav: true
 nav_order: 2
 ---
